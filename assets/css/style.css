@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.cabecalho{
+    width: 1920px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #262626;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.buscar{
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    border: solid black 1px;
+}
+.buscar input{
+    border: none;
+    margin-left: 10px;
+    height: 32px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    width: 150px;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 15px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+
+}
+a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #BE3633;
+}
+.icon-links{
+    padding-left: 10px;
+}
+.produtos{
+    width: 50px;
+    height: 50px;
+    border: 1px, #262626;
+    border-radius: 50%;
+
+}
+
